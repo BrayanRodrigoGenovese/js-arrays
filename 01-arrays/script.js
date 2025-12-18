@@ -28,7 +28,8 @@ console.log(`abbiamo aggiunto ${teachers[0]} all'inizio della lista`);
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
-const lewisIndex = null;
+const lewisIndex = teachers.indexOf("Lewis");
+console.log(`l'indice dell'insegnante Lewis è ${lewisIndex}`);
 
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
