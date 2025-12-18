@@ -23,6 +23,8 @@ lastIndex = teachers.push("Vanessa") - 1;
 console.log(`abbiamo aggiunto ${teachers[lastIndex]} alla fine della lista`);
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
+teachers.unshift("Sarah");
+console.log(`abbiamo aggiunto ${teachers[0]} all'inizio della lista`);
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
